@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(skyblue, blue);
+    font-family: 'acme', sans-serif;
+}
+
+.paralax{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.paralax::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,white,transparent );
+    z-index: 1000;
+}
+.paralax img{
+    position: absolute;
+    top: 0;
+    left: 100;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#baru ketikan{
+  position: absolute;
+  font-size: 4.8em;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 3px 3px 10px grey;
+  bottom: -100px;
+
+  
+}
+.paralax img#awan{
+    z-index: 100;
+}
+
+#button{
+    position: absolute;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    transform: translateY(100px);
+    bottom: -100px;
+}
+.description {
+    position: relative;
+    padding:10em;
+    background-color: white;
+}
+.description p {
+    font-size: 1.1em;
+    color: lightblue
+  
+}
+
+.description h2 {
+  color:blue
+
+}
+
+.baru a {
+  position:absolute;
+  
+}
+#text{
+  font-size: 4.8em;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 3px 3px 10px skyblue;
+    bottom: -100px;
+  
+}
+
+#awan{
+  z-index: 100;
+}
+
+#tombol{
+  position: absolute;
+    font-size: 1em;
+    color: black;
+    background-color: skyblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    transform: translateY(100px);
+    bottom: -100px;
+}
+
+#burung{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100;
+  height: 100%;
+  object-fit: cover;
+  z-index: 100;
+}
+
+ .audio{
+   width: 90;
+   outline: none;
+   opacity: 5;
+    letter-spacing: 2px;
+    text-align: center;
+    bottom: -100px;
+   position: center;
+   
+ }
+
+
+
